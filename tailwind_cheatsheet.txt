@@ -1,0 +1,64 @@
+								Tailwind CSS                      
+
+                                 (helpful cheatsheet: https://umeshmk.github.io/Tailwindcss-cheatsheet/)
+
+
+- mx-auto - centers child elements inside a div
+
+- w-fit - makes elements width only fit around it instead of growing to fill container
+
+- px-# - gives more space on the horizontal sides of the elements in a container
+
+	-useful in placeholder text in input to give room for text
+
+- p-# is more space on x and y
+
+---------------------------------------------------------------------------------------------------------------------------
+
+- flex - makes element a flexbox container: by default everything is horizontal, stay on one line, and align from left
+
+- flex-col - makes flexbox that puts items stacked vertically
+
+- gap-# - part of flexbox that spaces out children in a flexbox
+
+- justify-between - first item is pressed to very beginning of box, last is at very end, all other items are evenly spaced in between
+
+- justify-center - part of flexbox, centers items horizontally
+
+- items-center - part of flexbox, centers items vertically
+
+---------------------------------------------------------------------------------------------------------------------------
+
+- grid - creates a grid structure
+
+- grid-cols-# - creates that many columns in the grid
+
+- col-span-# - makes an element span that many columns
+
+- col-start-# - makes and element start at that place
+
+- grid-flow-(row/col) - makes elements spawn in either horizontally (left of) or vertically (under)
+
+	- grid-flow-(row/col)-dense - if next item is too large to fit but item after next can fit then it will skip into place
+
+---------------------------------------------------------------------------------------------------------------------------
+
+- border-# - indicates thickness of border
+
+- border-[color]-# - tells border what color
+
+- rounded-[sm|md|lg|2xl|full|etc] - rounds corners of border
+
+- outline-none - no outline on an input
+
+- hover:[css code] - when element is hovered over the css code is ran
+
+- focus:[css code] - when input/item is clicked css code is now ran
+
+- duration:### - how long any code that changes css takes to take effect (hover, focus)
+
+- max-w-[###] - max width of an element
+
+- mx-auto - centers an item inside of its parent horizontally
+
+
