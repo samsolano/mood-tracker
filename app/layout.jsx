@@ -1,4 +1,7 @@
 import "./globals.css";
+import { Fugaz_One } from 'next/font/google';
+
+const fugaz = Fugaz_One({ subsets: ["latin"], weight: ['400']});
 
 
 export const metadata = {
@@ -9,17 +12,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
 
   const header = (
-    <header>
-      <div style={{ display: 'flex', justifyContent: 'space-between'}}>
-        <h1> Broodl </h1>
-        <h2>placeholder</h2>
-      </div>
+    <header className='p-6 flex justify-between '>
+        <h1 className={'text-base textGradient ' + fugaz.className}> Broodl </h1>
+        <h2 className={' ' + fugaz.className}>Placeholder</h2>
     </header>
   )
 
   const footer = (
-    <footer className="grid place-items-center">
-      <p>footer</p>
+    <footer className="grid place-items-center py-16">
+      <p className={'text-indigo-400 ' + fugaz.className}>Made with ❤️</p>
     </footer>
   )
 

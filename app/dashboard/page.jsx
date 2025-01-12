@@ -6,21 +6,24 @@ export const metadata = {
   title:"Broodl Dashboard"
 };
 
-const isAuthenticated = false
+export default function DashboardPage() {
+  const isAuthenticated = false
 
-let pageDisplayed = (
-  <Login />
-)
-
-
-if (isAuthenticated) {
-  pageDisplayed = (
-    <Dashboard />
+  let pageDisplayed = (
+    <Login />
   )
-}
 
-export default function page() {
+
+  if (isAuthenticated) {
+    pageDisplayed = (
+      <Dashboard />
+    )
+  }
+
+
   return (
-    <div>{pageDisplayed}</div>
+    <div>
+      {pageDisplayed}
+    </div>
   )
 }
