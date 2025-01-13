@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./globals.css";
 import { Fugaz_One } from 'next/font/google';
 
@@ -13,8 +14,11 @@ export default function RootLayout({ children }) {
 
   const header = (
     <header className='p-6 flex justify-between '>
-        <h1 className={'text-base textGradient ' + fugaz.className}> Broodl </h1>
+        <Link href="/">
+        <h1 className={'text-xl textGradient ' + fugaz.className}> Broodl </h1>
+        </Link>
         <h2 className={' ' + fugaz.className}>Placeholder</h2>
+        
     </header>
   )
 

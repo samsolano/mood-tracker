@@ -25,7 +25,7 @@ export default function Login() {
 
 
       <div className='flex justify-center py-1'>
-        <Button text='Submit' dark/>
+        <Button text='Submit' dark />
       </div>
 
       <p className='text-center'>Don't have an account? <span className='text-indigo-500'>Sign up</span></p>
