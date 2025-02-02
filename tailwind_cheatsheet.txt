@@ -7,17 +7,23 @@
 
 - w-fit - makes elements width only fit around it instead of growing to fill container
 
+- w-full makes element take up entirety of its container
+
 - px-# - gives more space on the horizontal sides of the elements in a container
 
 	-useful in placeholder text in input to give room for text
 
 - p-# is more space on x and y
 
+- m[t|b|r|l]-# gives you margin space on just the top, bottom, right, left the number amount
+
 ---------------------------------------------------------------------------------------------------------------------------
 
 - flex - makes element a flexbox container: by default everything is horizontal, stay on one line, and align from left
 
 - flex-col - makes flexbox that puts items stacked vertically
+
+- flex-1 - makes the element take up the remaining space in the flex container horizontally (flex-grow takes all plus vertically)
 
 - gap-# - part of flexbox that spaces out children in a flexbox
 
@@ -26,6 +32,8 @@
 - justify-center - part of flexbox, centers items horizontally
 
 - items-center - part of flexbox, centers items vertically
+
+- text-center - centers text horizontally
 
 ---------------------------------------------------------------------------------------------------------------------------
 
